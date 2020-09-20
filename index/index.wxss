@@ -1,0 +1,16 @@
+.fruit-item {
+  margin: 15px 80px;
+  text-align: center;
+  background: #f2f2f2;
+  border-radius: 10px;
+  line-height: 40px
+}
+
+button {
+  margin: 15px 80px;
+}
+
+.loading {
+  text-align: center;
+  line-height: 100px;
+}

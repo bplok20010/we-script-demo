@@ -1,0 +1,1 @@
+<slot wx:if="{{loadStatus === COMPLETED}}"></slot>

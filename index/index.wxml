@@ -1,0 +1,5 @@
+<view class="loading" wx:if="{{loading}}">远程代码加载中...</view>
+<we-script bind:onInit="setScriptContext" bind:onLoad="loadSuccess" bind:onError="loadError" src="https://www.unpkg.com/we-script-demo-js@1.0.0/shuffle.js">
+  <view wx:for="{{list}}" wx:key="item" class="fruit-item">{{item}}</view>
+  <button bindtap="handleSort">重新排列</button>
+</we-script>
